@@ -1,0 +1,12 @@
+[package]
+name = "night-sentinel"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+dotenvy = "0.15.7"
+poise = { git = "https://github.com/serenity-rs/poise.git", branch = "next" }
+tokio = { version = "1.49.0", features = ["macros", "rt-multi-thread", "sync"] }
+tracing = { version = "0.1.44", features = ["log"] }
+tracing-subscriber = { version = "0.3.22", features = ["std", "fmt"] }

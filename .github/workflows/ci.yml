@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install cargo-deny
+      run: cargo install cargo-deny
+
+    - name: Build
+      run: cargo build --verbose
+
+    - name: Run cargo-deny
+      name: cargo deny check
+
+    - name: Run rustfmt
+      run: cargo fmt --all -- --check
+
+    - name: Run clippy
+      run: cargo clippy --verbose -- -D warnings
