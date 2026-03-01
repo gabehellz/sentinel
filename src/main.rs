@@ -1,4 +1,4 @@
-use night_sentinel::start_client;
+use sentinel::start_client;
 
 #[tokio::main]
 async fn main() {

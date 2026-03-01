@@ -945,17 +945,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "night-sentinel"
-version = "0.1.0"
-dependencies = [
- "dotenvy",
- "poise",
- "tokio",
- "tracing",
- "tracing-subscriber",
-]
-
-[[package]]
 name = "nu-ansi-term"
 version = "0.50.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1456,6 +1445,17 @@ checksum = "d767eb0aabc880b29956c35734170f26ed551a859dbd361d140cdbeca61ab1e2"
 dependencies = [
  "serde",
  "serde_core",
+]
+
+[[package]]
+name = "sentinel"
+version = "0.1.0"
+dependencies = [
+ "dotenvy",
+ "poise",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
 ]
 
 [[package]]

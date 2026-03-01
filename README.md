@@ -1,6 +1,6 @@
-# Night Sentinel
+# Sentinel
 
-A multi-purpose 1-server Discord bot inspired by the [Night Sentinels](https://doom.fandom.com/wiki/Night_Sentinels) of DOOM.
+A multi-purpose 1-server Discord bot.
 
 ## Requirements
 
