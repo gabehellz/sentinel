@@ -1,6 +1,6 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Bug Report
+about: Report a bug for this project
 title: "[Bug]"
 labels: bug
 assignees: gabehellz
