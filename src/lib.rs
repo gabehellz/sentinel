@@ -59,7 +59,7 @@ fn prefix_options() -> poise::PrefixFrameworkOptions<Data, Error> {
 }
 
 fn build_framework() -> poise::Framework<Data, Error> {
-    let commands = vec![commands::ping::ping()];
+    let commands = vec![commands::ping::ping(), commands::avatar::avatar()];
     let prefix_options = prefix_options();
 
     poise::Framework::builder()
