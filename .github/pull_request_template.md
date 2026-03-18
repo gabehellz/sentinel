@@ -1,12 +1,3 @@
----
-name: Pull Request
-about: Template for general Pull Request
-title: ""
-labels: ""
-assignees: gabehellz
-
----
-
 **What was done?**
 
 Describe what contributions where made in this PR.
